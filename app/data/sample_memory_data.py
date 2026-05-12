@@ -1,0 +1,67 @@
+SAMPLE_DATA = {
+    "dashboard": {
+        "memory_packets": 18,
+        "live_threads": 6,
+        "stale_notes": 3,
+        "recovery_risk": 2,
+    },
+    "packets": [
+        {
+            "id": "mem-101",
+            "title": "Board briefing pressure chain",
+            "domain": "Executive Ops",
+            "owner": "Olivia Chen",
+            "freshness_days": 1,
+            "confidence": 0.92,
+            "staleness_risk": "low",
+            "summary": "Pipeline compression, retention freeze, and model guidance collapsed into one board note.",
+            "keywords": ["board", "pipeline", "retention", "model", "briefing"],
+        },
+        {
+            "id": "mem-114",
+            "title": "Tenant bleed response memory",
+            "domain": "Platform Security",
+            "owner": "Sana Patel",
+            "freshness_days": 5,
+            "confidence": 0.84,
+            "staleness_risk": "watch",
+            "summary": "Cross-tenant alert chain, rollback steps, and owner routing for tier-0 containment.",
+            "keywords": ["tenant", "rollback", "security", "containment", "incident"],
+        },
+        {
+            "id": "mem-128",
+            "title": "Search recovery playbook",
+            "domain": "Search Observability",
+            "owner": "Milo Hart",
+            "freshness_days": 12,
+            "confidence": 0.73,
+            "staleness_risk": "high",
+            "summary": "Indexation drift, crawl mismatch, and freshness breach remediation ordered by impact.",
+            "keywords": ["search", "crawl", "indexation", "freshness", "recovery"],
+        },
+        {
+            "id": "mem-132",
+            "title": "Release gate escalation memory",
+            "domain": "Release Management",
+            "owner": "David Kim",
+            "freshness_days": 2,
+            "confidence": 0.88,
+            "staleness_risk": "low",
+            "summary": "Freeze-window exceptions, dependency drag, and rollback confidence scoring before launch.",
+            "keywords": ["release", "freeze", "rollback", "dependency", "launch"],
+        },
+    ],
+    "queries": [
+        {
+            "id": "query-41",
+            "prompt": "How do we reconstruct the board briefing if records, release, and AI notes all drift?",
+            "intent": "context-recovery",
+        },
+        {
+            "id": "query-55",
+            "prompt": "What is the fastest memory path from tenant incident to owner action?",
+            "intent": "incident-handoff",
+        },
+    ],
+}
+
