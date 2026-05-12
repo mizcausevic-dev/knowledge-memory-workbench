@@ -66,3 +66,6 @@ py -3.11 scripts\render_readme_assets.py
 - [scripts/run_demo.py](C:/Users/chaus/dev/repos/knowledge-memory-workbench/scripts/run_demo.py)
 - [docs/architecture.md](C:/Users/chaus/dev/repos/knowledge-memory-workbench/docs/architecture.md)
 
+---
+
+**Connect:** [LinkedIn](https://www.linkedin.com/in/mirzacausevic/) · [Kinetic Gain](https://kineticgain.com) · [Medium](https://medium.com/@mizcausevic/) · [Skills](https://mizcausevic.com/skills/)
