@@ -31,7 +31,7 @@ It is designed for the moment when teams know the relevant knowledge exists some
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\knowledge-memory-workbench"
+cd knowledge-memory-workbench
 py -3.11 -m app.main
 ```
 
@@ -50,7 +50,7 @@ Then open:
 ## Validation
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\knowledge-memory-workbench"
+cd knowledge-memory-workbench
 py -3.11 -m unittest discover -s tests
 py -3.11 scripts\run_demo.py
 py -3.11 scripts\smoke_check.py
@@ -60,11 +60,11 @@ py -3.11 scripts\render_readme_assets.py
 
 ## Repo Layout
 
-- [app/main.py](C:/Users/chaus/dev/repos/knowledge-memory-workbench/app/main.py)
-- [app/services/memory_engine.py](C:/Users/chaus/dev/repos/knowledge-memory-workbench/app/services/memory_engine.py)
-- [app/data/sample_memory_data.py](C:/Users/chaus/dev/repos/knowledge-memory-workbench/app/data/sample_memory_data.py)
-- [scripts/run_demo.py](C:/Users/chaus/dev/repos/knowledge-memory-workbench/scripts/run_demo.py)
-- [docs/architecture.md](C:/Users/chaus/dev/repos/knowledge-memory-workbench/docs/architecture.md)
+- [app/main.py](./app/main.py)
+- [app/services/memory_engine.py](./app/services/memory_engine.py)
+- [app/data/sample_memory_data.py](./app/data/sample_memory_data.py)
+- [scripts/run_demo.py](./scripts/run_demo.py)
+- [docs/architecture.md](./docs/architecture.md)
 
 ---
 
